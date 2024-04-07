@@ -9,7 +9,7 @@ function countryshow() {
 
         
 let allcards = `
-     <a href="#" class="inline-block country-cards w-[250px]  bg-gray-500 mx-12 my-12 m-52 p-1 rounded-md shadow-slate-200 cursor-pointer ">
+     <a href="/dist/details.html" class="inline-block country-cards w-[250px]  bg-gray-500 mx-12 my-12 m-52 p-1 rounded-md shadow-slate-200 cursor-pointer ">
      <img class=" w-[250px]    border-r-4 bg-slate-500 mb-3 rounded-md" src="${
        country.flags.svg
      }" alt="">
