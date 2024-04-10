@@ -6,10 +6,11 @@ function countryshow() {
       data.forEach((country) => {
         let cards = document.createElement("a");
         cards.classList.add("country-cards");
+        console.log(country);
 
         
 let allcards = `
-     <a href="/details.html" class="inline-block country-cards w-[250px]  bg-gray-500 mx-12 my-12 m-52 p-1 rounded-md shadow-slate-200 cursor-pointer ">
+     <a href="#" class="inline-block country-cards w-[250px]  bg-gray-500 mx-12 my-12 m-52 p-1 rounded-md shadow-slate-200 cursor-pointer ">
      <img class=" w-[250px]    border-r-4 bg-slate-500 mb-3 rounded-md" src="${
        country.flags.svg
      }" alt="">
